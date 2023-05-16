@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="estilos.css">
+  <title>Contacto</title>
+</head>
+<body>
+
+  <section class="top-bg"></section>
+
+  <nav>
+    <ul>
+      <li><img class="logo" src="img/logoazul.svg" alt=""></li>
+      <li class="fw-regular tc-dblue f-nav ta-center"><a href="./index.html">HOME</a></li>
+      <li class="tc-dblue f-nav activo ta-center"><a href="#">CONTACTO</a></li>
+    </ul>
+  </nav>
+
+  <main class="contenedor">
+
+    <div class="cont-form">
+
+      <div>
+        <h2 class="ta-center">¿Querés que nos contactemos con vos?</h2>
+        <h3 class="">Dejanos tu consulta:</h3>
+      </div>
+
+      <div>
+        <form action="/">
+          <label for="nombre">Nombre completo <sup class="red-sup">*</sup></label>
+          <input type="text" id="nombre" name="nombre" required placeholder="Nombre">
+          <label for="correo">Email <sup class="red-sup">*</sup></label>
+          <input type="email" id="correo" name="correo" required placeholder="Correo electrónico">
+          <label for="comentario">Comentario <sup class="red-sup">*</sup></label>
+          <input class="textbox" type="textarea" id="comentario" name="comentario" required>
+          <button class="btn-reset" type="reset">Resetear</button>
+          <button class="btn-enviar" type="submit">Enviar</button>
+        </form>
+      </div>
+
+    </div>
+
+  </main>
+
+</body>
+</html>
